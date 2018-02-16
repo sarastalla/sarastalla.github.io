@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113852118-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-113852118-1');
+		</script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sara Stalla | Amviewlate</title>
+    <link rel="shortcut icon" type="image/png" href="ss-icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://sarastalla.com/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="project-stylesheet.css">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/design.js"></script>
+	</head>
+
+<!-- Header -->
+  <div id="page">
+    <header>
+      <a class="logo" title="Sara Stalla" href="index.html"><span>Sara Stalla</span></a>
+      <div class="hero">
+        <a class="btn" title="About" href="about.html">ABOUT</a>
+        <a class="btn" title="Selected Work" href="index.html">SELECTED WORK</a>
+        <a class="btn" title="Resume" href="stalla-resume-2018-v1.pdf" target="_blank">RESUME</a>
+      </div>
+    </header>
+
+<!-- Amviewlate -->
+	<body>
+    <br>
+    <section class="project-title">
+      <h2>Amviewlate: Enhancing mobility in people with Parkinson's disease</h2>
+    </section>
+
+  <!-- Timeline -->
+      <div class="line">
+        <a href="amviewlate-challenge.html" title="Challenge" class="dot intro"></a>
+        <a href="amviewlate-research.html" title="Exploratory research" class="dot research"></a>
+        <a href="amviewlate-ideation.html" title="Ideation & prototyping" class="dot ideation current"></a>
+        <a href="amviewlate-final-concept.html" title="Final concept" class="dot results"></a>
+      </div>
+      <br>
+      <br>
+
+  <!-- Main Idea -->
+    <section class="page-overview">
+      <h3>IDEATION & PROTOTYPING</h3>
+      <h4>While one of our teammates began setting up the AR development environment, two of us
+        used paper to create a first-round experiential prototype.
+      </h4>
+    </section>
+    <br>
+
+  <!-- Process Work -->
+    <div class="glance">
+			<b>IDEATION</b>
+      <br><i>at a glance</i><br><br>
+			Methods:
+      <ul>
+				<li>Paper prototyping</li>
+        <li>AR prototyping</li>
+      </ul>
+      <br>
+			Tools:
+      <ul>
+				<li>Adobe Illustrator</li>
+				<li>Blender</li>
+				<li>Unity</li>
+        <li>Vuforia</li>
+        <li>Google Cardboard</li>
+        <li>Android Speech Recognizer</li>
+      </ul>
+    </div>
+
+		<div id="mainText">
+
+    <div class="subheading">
+      Paper prototyping
+    </div>
+
+    <section class="process">
+			<div class="textBox">
+				We used paper markers to prototype the ideal motion cues for three actions:
+        A staircase for <b>walking</b>, rotating footprints for <b>turning</b>,
+        and a flying baseball for <b>grabbing objects</b>. To enable turning, we
+        imagined an interaction that would guide users in their chosen
+        direction by <b>displaying a guide of "stomping" footprints</b>. With this method,
+        users could turn by maintaining continuous motion. We used this stage to work out
+				<b>central usability questions</b> as best we could without users with Parkinson's &mdash; questions such as
+        "What is a natural speed and direction of cues for turning?"</p>
+
+        <p>Through this prototyping exercise, we also
+        realized that <b>voice command would be a huge asset to trigger different illusions</b>
+        so that motion could be as seamless as possible. </p>
+		</div>
+		<img alt="paper prototyping" class="columnImage" src="./images/amviewlate-paper.png">
+    </section>
+
+		<br>
+		<br>
+		<br>
+
+    <div class="subheading">
+      AR prototyping
+    </div>
+
+    <section class="process">
+			<div class="textBox">
+        After the interactions had been mapped out with paper, we began
+        working on the AR and voice recognition capabilities. We chose to color the
+        staircase illusion blue in keeping with the research we had discovered about
+        its special <b>steadying properties</b>. We developed the
+        application for an Android phone and Google Cardboard, using a bit of
+        blue twine we had found to fashion a headstrap. 3D model assets
+        for the foot, ball, and stair illusions were found
+        and altered using the Unity Store and Blender.
+
+        <p>In order for the app to lay out a projection along a path it was necessary
+          to provide markers. We placed large arrows on visually busy yet consistent backgrounds
+          for seamless <b>pattern recognition</b>. The incoming ball interaction, which was
+          designed to allow users to <b>target their arm extension</b> so that they may pick up objects,
+          could be summoned with the voice command "grab".</p>
+
+		</div>
+
+		<img alt="augmented reality" class="columnImage" src="./images/amviewlate-ar.png">
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+		<section class="insights">
+
+				<b>Central features</b>
+
+				<br><br><br>
+				<h5>Voice command</h5>
+				Since gesture control is limited in people with Parkinson's, any interaction that involved
+        a button or GUI would be impractical. With this in mind, we designed all of our illusions
+        to be controlled with simple commands like "turn left" or "grab cup".
+				<br><br><br>
+				<h5>Continuous movement pattern for turning</h5>
+				Turning is normally an abrupt, incongruous movement. Our "stomp" method embeds
+        rhythm in this task.
+				<br><br><br>
+				<h5>The color blue</h5>
+				Since blue has <a title="Dyskinesia and blue lenses" class="redUnderline" href="https://www.youtube.com/watch?v=h3y13erwfxw" target="_blank">remarkable steadying effects</a>, we used it for our staircase illusion and stomping interaction.
+				<br>
+		</section>
+
+    </div>
+  </body>
+
+	<div class="test">
+
+		<a title="back" href="amviewlate-research.html"><img class="button1" src="arrowLeft.svg"></a>
+  	<a class="button1" href="amviewlate-research.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exploratory research</a>
+  	<a href="#">back to top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<a title="next" href="amviewlate-final-concept.html"><img class="button2" src="arrowRight.svg"></a>
+		<a class="button2" href="amviewlate-final-concept.html">final concept&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+  </div>
+</div>
+
+<!-- Social Meedz -->
+  <footer>
+
+    <a title="Email" href="mailto:sarastalla@gmail.com"><img class="mail" src="mail.svg"></a>
+    <a title="LinkedIn" href="https://www.linkedin.com/in/sarastalla/" class="fa fa-linkedin" target="_blank"></a>
+    <a title="Instagram" href="https://www.instagram.com/sarastalla/" class="fa fa-instagram" target="_blank"></a>
+    <a title="Pinterest" href="https://www.pinterest.com/sarastalla/" class="fa fa-pinterest" target="_blank"></a>
+    <a title="Twitter" href="https://www.twitter.com/sarastalla/" class="fa fa-twitter" target="_blank"></a>
+  </footer>
+	<br>
+	<br>
+</html>

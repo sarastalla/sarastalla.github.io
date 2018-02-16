@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #30313F;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Text Styles */
+
+h1 {
+  font-family: "Alegreya Sans";
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+h2 {
+  margin: 0.2em 0 0.3em 0;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+h3 {
+  margin: 0 0 0.5em 0;
+  font-size: .95em;
+  font-weight: 200;
+  font-style: italic;
+}
+
+h4 {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 0.5em 0;
+  font-size: 0.8em;
+}
+
+/* Buttons */
+
+a {
+  color: #30313F;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #30313F;
+}
+
+/* FIX THIS: Maybe underline appears on hover? */
+a.btn {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+  padding: 4px 14px;
+  transition: color 0.5s;
+}
+
+  a.btnSelectedWork {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    padding: 4px 14px;
+  }
+
+a.btn:hover {
+  font-weight: 500;
+  transition: font-weight 0.3s;
+}
+
+/* not using this button hover effect right now */
+a.btnName {
+}
+
+a.btnName:hover {
+  font-weight: 300;
+  transition: font-weight 0.2s;
+  color: #717171;
+}
+
+/* Header */
+
+header {
+  height: 100px;
+  background: #fff background-size: 1200px 100px;
+}
+
+header a.logo {
+  z-index: 1;
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background: url(logo.svg) no-repeat 0 0;
+  background-size: contain; /* "Contain" sets the size in proportion to the background */
+  top: 30px;
+  margin: auto;
+}
+
+header a.logo span {
+  display: none;
+}
+
+header div.hero {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  text-align: center;
+}
+
+header div.hero h1 {
+  line-height: 1em;
+  margin: 0 0 30px 0;
+}
+
+/* Main Section */
+
+section {
+  padding: 0 30px;
+}
+
+section::after {
+  content: '';
+display: block;
+clear: both;
+}
+
+section.main {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+section.main aside {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+section.main .content {
+  margin: 30px;
+  background: no-repeat left top;
+  background-size: 200px 200px;
+  padding-top: 75px;
+}
+
+section.main aside p a {
+  display: inline-block;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #FF3977;
+}
+
+img {
+  max-width: 200px;
+  min-height: 200px;
+  border-radius: 2%;
+}
+
+/* Social Meedz */
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+.mail {
+  background: white;
+  border-radius: 50%;
+  min-height: 40px;
+  max-width: 40px;
+  vertical-align: top;
+  margin-right: 2px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.fa-instagram {
+  background: white;
+  color: #30313F;
+}
+
+.fa-instagram:hover {
+  background: white;
+  color: #B21D92;
+}
+
+.fa-twitter {
+  background: white;
+  color: #30313F;
+}
+
+.fa-twitter:hover {
+  background: white;
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #30313F;
+}
+
+.fa-linkedin:hover {
+  background: white;
+  color: #0077B5;
+}
+
+.fa-pinterest {
+  background: white;
+  color: #30313F;
+}
+
+.fa-pinterest:hover {
+  background: white;
+  color: #BF0112;
+}

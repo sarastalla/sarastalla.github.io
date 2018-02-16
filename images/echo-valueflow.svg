@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="400px" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>echo-valueflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="echo-valueflow">
+            <text id="We-examined-the-stak" font-family="AlegreyaSans-Regular, Alegreya Sans" font-size="12" font-weight="normal" fill="#30313F">
+                <tspan x="623" y="160">We examined the </tspan>
+                <tspan x="623" y="175">stakeholders who interact </tspan>
+                <tspan x="623" y="190">with engineering students: </tspan>
+                <tspan x="623" y="205">People and organizations that </tspan>
+                <tspan x="623" y="220">support their presentation </tspan>
+                <tspan x="623" y="235">skills and what is exchanged </tspan>
+                <tspan x="623" y="250">in each relationship.</tspan>
+            </text>
+            <text id="Student-communicatio" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="20" font-weight="400" fill="#30313F">
+                <tspan x="10" y="23">Student communication at CMU</tspan>
+                <tspan x="10" y="47" font-family="AlegreyaSans-Italic, Alegreya Sans" font-style="italic" font-weight="normal">Value flow</tspan>
+            </text>
+            <ellipse id="Oval" fill-opacity="0.5" fill="#FFD6D6" transform="translate(312.676417, 134.281562) rotate(7.000000) translate(-312.676417, -134.281562) " cx="312.676417" cy="134.281562" rx="221.294559" ry="77.8931428"></ellipse>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D6F3FF" cx="485" cy="211.5" rx="95" ry="71.5"></ellipse>
+            <ellipse id="Oval-3" fill-opacity="0.5" fill="#DBFFB6" transform="translate(416.946020, 333.466922) rotate(7.000000) translate(-416.946020, -333.466922) " cx="416.94602" cy="333.466922" rx="87.4534243" ry="52.198107"></ellipse>
+            <circle id="Oval-4" fill="#FBB7CC" cx="575.5" cy="316.5" r="33.5"></circle>
+            <ellipse id="Oval-5" fill-opacity="0.5" fill="#FADBFF" transform="translate(222.500000, 317.000000) rotate(5.000000) translate(-222.500000, -317.000000) " cx="222.5" cy="317" rx="92.5" ry="61"></ellipse>
+            <circle id="Oval-7" fill="#E8B7EF" cx="172" cy="303" r="25"></circle>
+            <circle id="Oval-7" fill="#E8B7EF" cx="250" cy="301" r="25"></circle>
+            <circle id="Oval-7" fill="#F2BCBC" cx="165" cy="115" r="25"></circle>
+            <circle id="Oval-7" fill="#F2BCBC" cx="269" cy="108" r="25"></circle>
+            <circle id="Oval-7" fill="#F2BCBC" cx="363" cy="142" r="25"></circle>
+            <circle id="Oval-7" fill="#F2BCBC" cx="454" cy="177" r="25"></circle>
+            <circle id="Oval-7" fill="#B8E986" cx="377" cy="317" r="25"></circle>
+            <circle id="Oval-7" fill="#B8E986" cx="445" cy="325" r="25"></circle>
+            <circle id="Oval-7" fill="#AAE4FC" cx="468" cy="243" r="27"></circle>
+            <circle id="Oval-6" fill="#FFF8BC" cx="115" cy="227" r="46"></circle>
+            <text id="Students" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="16" font-weight="400" fill="#30313F">
+                <tspan x="88" y="232">Students</tspan>
+            </text>
+            <text id="Friends" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" fill="#30313F">
+                <tspan x="149.04" y="119">Friends</tspan>
+            </text>
+            <text id="Alumni" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" fill="#30313F">
+                <tspan x="154.92" y="306">Alumni</tspan>
+            </text>
+            <text id="Recruiters" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="11.5" font-weight="400" fill="#30313F">
+                <tspan x="226.37925" y="304">Recruiters</tspan>
+            </text>
+            <text id="Social-media" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="254.288" y="104.616028">Social </tspan>
+                <tspan x="253.238" y="117.616028">media</tspan>
+            </text>
+            <text id="Student-orgs" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="343.338" y="138.616028">Student </tspan>
+                <tspan x="352.128" y="151.616028">orgs</tspan>
+            </text>
+            <text id="Class--mates" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="437.486" y="171.616028">Class-</tspan>
+                <tspan x="436.646" y="184.616028">mates</tspan>
+            </text>
+            <text id="Eberly-Center" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="429.798" y="320.616028">Eberly </tspan>
+                <tspan x="429.006" y="333.616028">Center</tspan>
+            </text>
+            <text id="CPDC-GCC-ICC" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="362.46" y="306.616028">CPDC</tspan>
+                <tspan x="365.97" y="319.616028">GCC</tspan>
+                <tspan x="367.89" y="332.616028">ICC</tspan>
+            </text>
+            <text id="CMU" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="12" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="562.64" y="318.616028">CMU</tspan>
+            </text>
+            <text id="Professors" font-family="AlegreyaSans-Medium, Alegreya Sans" font-size="11.5" font-weight="400" line-spacing="13" fill="#30313F">
+                <tspan x="443.96525" y="246">Professors</tspan>
+            </text>
+            <text id="social" font-family="AlegreyaSans-Italic, Alegreya Sans" font-size="17" font-style="italic" font-weight="normal" fill="#30313F">
+                <tspan x="338" y="92">social</tspan>
+            </text>
+            <text id="professional" font-family="AlegreyaSans-Italic, Alegreya Sans" font-size="17" font-style="italic" font-weight="normal" fill="#30313F">
+                <tspan x="189" y="348">professional</tspan>
+            </text>
+            <text id="support" font-family="AlegreyaSans-Italic, Alegreya Sans" font-size="17" font-style="italic" font-weight="normal" fill="#30313F">
+                <tspan x="391" y="370">support</tspan>
+            </text>
+            <text id="academic" font-family="AlegreyaSans-Italic, Alegreya Sans" font-size="17" font-style="italic" font-weight="normal" fill="#30313F">
+                <tspan x="500" y="218">academic</tspan>
+            </text>
+            <path d="M131.5,183.5 L148.5,134.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M148.5,134.5 L142.125785,143.720053 L147.794325,145.68669 L148.5,134.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M140.5,187.5 L245.5,117.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M245.5,117.5 L234.849756,120.994611 L238.177957,125.986913 L245.5,117.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M457.5,302.5 L465.5,270.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M465.5,270.5 L459.970188,280.249932 L465.791043,281.705146 L465.5,270.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M470.5,320.5 L542.5,308.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M542.5,308.5 L531.353749,307.316327 L532.340143,313.234691 L542.5,308.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M495.5,248.5 L554.5,287.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M554.5,287.5 L547.144732,279.041866 L543.836134,284.047181 L554.5,287.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M152.5,199.5 L338.5,136.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M338.5,136.5 L327.308417,137.123282 L329.23326,142.80615 L338.5,136.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M161.5,220.5 L428.5,179.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M428.5,179.5 L417.369787,178.17397 L418.280461,184.104457 L428.5,179.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M161.5,226.5 L442.5,232.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M442.5,232.5 L431.766503,229.270131 L431.638419,235.268764 L442.5,232.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M159.5,240.5 L362.5,295.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M362.5,295.5 L352.860348,289.780112 L351.291302,295.57132 L362.5,295.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M154.5,251.5 L232.5,283.5" id="Line" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M232.5,283.5 L223.646848,276.625285 L221.36951,282.176297 L232.5,283.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <text id="friendship/feedback" transform="translate(130.870934, 155.054749) rotate(-73.000000) translate(-130.870934, -155.054749) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="108.370934" y="156.054749">friendship/</tspan>
+                <tspan x="108.370934" y="163.054749">feedback</tspan>
+            </text>
+            <text id="content" transform="translate(177.933231, 154.887688) rotate(-34.000000) translate(-177.933231, -154.887688) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="155.433231" y="159.387688">content</tspan>
+            </text>
+            <text id="entertainment" transform="translate(232.303904, 143.790005) rotate(-32.000000) translate(-232.303904, -143.790005) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="205.303904" y="148.290005">entertainment</tspan>
+            </text>
+            <text id="contributions" transform="translate(214.850917, 171.872743) rotate(-19.000000) translate(-214.850917, -171.872743) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="187.850917" y="176.372743">contributions</tspan>
+            </text>
+            <text id="presentation-opportu" transform="translate(290.810381, 169.083935) rotate(-16.000000) translate(-290.810381, -169.083935) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="241.036578" y="173.583935">presentation opportunities</tspan>
+            </text>
+            <text id="feedback/final-GPA" transform="translate(314.586326, 189.922541) rotate(-10.000000) translate(-314.586326, -189.922541) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="268.586326" y="194.422541">feedback/final GPA</tspan>
+            </text>
+            <text id="participation" transform="translate(301.439738, 223.041160) rotate(1.000000) translate(-301.439738, -223.041160) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="232.366439" y="227.54116">participation</tspan>
+            </text>
+            <text id="feedback/recommendat" transform="translate(235.030104, 253.955861) rotate(15.000000) translate(-235.030104, -253.955861) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="182.030104" y="258.455861">feedback/recommendation</tspan>
+            </text>
+            <text id="cover-letter/pitch" transform="translate(209.089572, 266.548986) rotate(21.000000) translate(-209.089572, -266.548986) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="163.089572" y="271.048986">cover letter/pitch</tspan>
+            </text>
+            <text id="network" transform="translate(135.175444, 287.306376) rotate(57.000000) translate(-135.175444, -287.306376) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="119.455301" y="291.806376">network</tspan>
+            </text>
+            <text id="jobs" transform="translate(238.167863, 301.064954) rotate(23.000000) translate(-238.167863, -301.064954) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="192.167863" y="305.564954">jobs</tspan>
+            </text>
+            <text id="tutoring/feedback" transform="translate(324.452984, 299.211380) rotate(16.000000) translate(-324.452984, -299.211380) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="278.452984" y="303.71138">tutoring/feedback</tspan>
+            </text>
+            <text id="knowledge" transform="translate(359.120134, 247.902657) rotate(3.000000) translate(-359.120134, -247.902657) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="313.120134" y="252.402657">knowledge</tspan>
+            </text>
+            <text id="teaching-skills" font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="406" y="297">teaching skills</tspan>
+            </text>
+            <text id="reputation" transform="translate(523.646143, 349.376266) rotate(-31.000000) translate(-523.646143, -349.376266) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="496.646143" y="353.876266">reputation</tspan>
+            </text>
+            <text id="resources" transform="translate(328.429301, 385.077203) rotate(27.000000) translate(-328.429301, -385.077203) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="301.429301" y="389.577203">resources</tspan>
+            </text>
+            <text id="resources" transform="translate(530.398334, 325.239832) rotate(-10.000000) translate(-530.398334, -325.239832) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="503.398334" y="329.739832">resources</tspan>
+            </text>
+            <text id="reputation" transform="translate(498.197578, 309.135328) rotate(-9.000000) translate(-498.197578, -309.135328) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="471.197578" y="313.635328">reputation</tspan>
+            </text>
+            <text id="reputation" transform="translate(522.021496, 258.409469) rotate(33.000000) translate(-522.021496, -258.409469) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="495.021496" y="262.909469">reputation</tspan>
+            </text>
+            <text id="$" transform="translate(538.876613, 296.398337) rotate(33.000000) translate(-538.876613, -296.398337) " font-family="AvenirNext-Medium, Avenir Next" font-size="8" font-weight="400" line-spacing="7" fill="#30313F">
+                <tspan x="520.61219" y="300.898337">$</tspan>
+            </text>
+            <path d="M161.5,220.5 L172.5,215.5" id="Line-2" stroke="#323341" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M161.5,220.5 L173.5,222.5" id="Line-2" stroke="#323341" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M172.5,215.5 L173.5,222.5" id="Line-2" stroke="#323341" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M562,348.5 C556,356.166667 544.5,364.666667 527.5,374 C511.615264,382.721032 489,388.5 465,393.5 C441,398.5 377.5,397.5 361,393.5 C350,390.833333 327.5,380.166667 293.5,361.5" id="Line-3" stroke="#3D3F4B" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-3-decoration-1" d="M293.5,361.5 L301.523272,369.327331 L304.410825,364.06786 L293.5,361.5 Z" stroke="#3D3F4B" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M249.5,125.5 L147.5,191.5" id="Line-4" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-4-decoration-1" d="M147.5,191.5 L158.197112,188.151597 L154.937604,183.114176 L147.5,191.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M337.5,148.5 L156.5,205.5" id="Line-5" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-1" d="M156.5,205.5 L167.702394,205.117418 L165.900146,199.39449 L156.5,205.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M149.5,290.5 L134.5,269.5" id="Line-6" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-6-decoration-1" d="M134.5,269.5 L138.336172,280.032036 L143.218573,276.544607 L134.5,269.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M440.5,243.5 L162.5,230.5" id="Line-7" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-7-decoration-1" d="M162.5,230.5 L173.148076,234.00121 L173.428346,228.007759 L162.5,230.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M356.5,301.5 L158.5,243.5" id="Line-8" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-8-decoration-1" d="M158.5,243.5 L168.021126,249.415079 L169.707825,243.657038 L158.5,243.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M542.5,316.5 L470.5,325.5" id="Line-9" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-9-decoration-1" d="M470.5,325.5 L481.588705,327.137258 L480.844497,321.183591 L470.5,325.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M549.5,295.5 L493.5,255.5" id="Line-10" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-10-decoration-1" d="M493.5,255.5 L500.544607,264.218573 L504.032036,259.336172 L493.5,255.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M302.5,352.5 C326.833333,368.833333 348.166667,379.333333 366.5,384 C394,391 446.5,390 469,384 C484,380 512.5,366.166667 554.5,342.5" id="Line-11" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-11-decoration-1" d="M554.5,342.5 L543.618222,345.188293 L546.563728,350.415529 L554.5,342.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M226.5,290.5 L153.5,257.5" id="Line-12" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+            <path id="Line-12-decoration-1" d="M153.5,257.5 L162.105407,264.682407 L164.576934,259.21509 L153.5,257.5 Z" stroke="#313240" stroke-width="0.5" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

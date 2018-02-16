@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113852118-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-113852118-1');
+		</script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sara Stalla | Amviewlate</title>
+    <link rel="shortcut icon" type="image/png" href="ss-icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://sarastalla.com/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="project-stylesheet.css">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/design.js"></script>
+	</head>
+
+<!-- Header -->
+  <div id="page">
+    <header>
+      <a class="logo" title="Sara Stalla" href="index.html"><span>Sara Stalla</span></a>
+      <div class="hero">
+        <a class="btn" title="About" href="about.html">ABOUT</a>
+        <a class="btn" title="Selected Work" href="index.html">SELECTED WORK</a>
+        <a class="btn" title="Resume" href="stalla-resume-2018-v1.pdf" target="_blank">RESUME</a>
+      </div>
+    </header>
+
+<!-- Amviewlate -->
+	<body>
+    <br>
+    <section class="project-title">
+      <h2>Amviewlate: Enhancing mobility in people with Parkinson's disease</h2>
+    </section>
+
+  <!-- Timeline -->
+      <div class="line">
+        <a href="amviewlate-challenge.html" title="Challenge" class="dot intro"></a>
+        <a href="amviewlate-research.html" title="Exploratory research" class="dot research"></a>
+        <a href="amviewlate-ideation.html" title="Ideation & prototyping" class="dot ideation"></a>
+        <a href="amviewlate-final-concept.html" title="Final concept" class="dot results current"></a>
+      </div>
+      <br>
+      <br>
+
+  <!-- Main Idea -->
+    <section class="page-overview">
+      <h3>FINAL CONCEPT</h3>
+      <h4>Through guerrilla research of academic papers and testimonials,
+        as well as paper prototyping AR interactions, our team analyzed and addressed specific
+        problems unique to people with Parkinson’s.
+			</h4>
+    </section>
+    <br>
+
+  <!-- Process Work -->
+    <div class="glance">
+      <b>FINAL CONCEPT</b>
+      <br><i>at a glance</i><br><br>
+      Deliverables:<br>
+      <ul>
+        <li><a class="redUnderline" href="https://vimeo.com/190448649" target="_blank">Concept video</a></li>
+        <li>Functional prototype</li>
+        <li>Slide deck</li>
+
+      </ul>
+    </div>
+
+    <div id="mainText">
+
+    <div class="subheading">
+      Introducing Amviewlate
+    </div>
+
+    <section class="process">
+			<div class="textBox">
+				<b>Amviewlate is an AR prototype that projects visual cues in augmented reality to facilitate walking
+        and interacting with objects. </b>A riff on "ambulate" and "view", Amviewlate assists with two key problems:
+        Freezing of gait, an ambulatory disturbance that results in slow, shuffled walking, and dyskinesia,
+        the impairment of voluntary movement, particularly without stimuli to trigger reflexes.
+
+        <p>A staircase illusion helps simulate the act of climbing stairs,
+        enabling continuous motion. A visual cue guides the hand to an intended target.
+        All actions are governed by voice control software to enable full agency in users
+        with limited gesture control.
+        Through Amviewlate, we hope to restore mobility, independence, and confidence to users.</p>
+
+		</div>
+		<img alt="lenda logo" class="columnImage" src="./images/amviewlate-logo.png">
+    </section>
+    <br>
+    <br>
+<div class="centered-video">
+  <iframe src="https://player.vimeo.com/video/190448649" width="640" height="389" frameborder="0"
+  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="subheading">
+      How it works
+    </div>
+
+    <section class="process">
+      <div class="textBox">
+        This project was built with an AR application using Google Cardboard,
+         a marker recognizer library called Vuforia, and Android Speech Recognizer.
+         It was important to us to <b>incorporate voice
+        controls to help people with Parkinson’s
+        &mdash; who have trouble with precise gesture controls &mdash; navigate the AR experience</b>.
+        There were no free Android speech
+        recognizer assets available on Unity, so we built one ourselves by integrating
+        Android plug-ins to the Unity project.
+
+    </div>
+    <img alt="amviewlate foot" class="columnImage" src="./images/amviewlate-howitworks.png">
+  </section>
+
+
+  <img alt="amviewlate storyboard" class="fullWidthImage" src="./images/amviewlate-storyboard.svg">
+
+
+
+		<div class="subheading">
+			Moving forward
+		</div>
+
+		<section class="process">
+			<div class="textBox">
+				More than 10 million people worldwide are living with Parkinson's disease.
+        Parkinson’s patients have trouble controlling their movements, from reaching
+        for objects to simply walking across the room. These problems lead to loss
+        of independence and reduced quality of life: Sufferers often avoid activities
+        outside of the home, leading to isolation and depression.
+
+        <p>While Google Cardboard has the benefit of requiring lightweight, affordable technology
+        (a smartphone and a mobile headset), the spatial recognition capabilities are limited.
+        In our demo, we got around this by using the Vuforia library to trigger AR effects based
+        on image targets placed throughout a space. However, using AR headsets with spatial recognition
+        would enable us to generate the AR effects dynamically using computer vision to recognize paths,
+        passageways, and obstacles in an environment. Luckily, better spatial recognition is within reach
+        with the next generation of AR headsets, such as the Hololens or Metavision.</p>
+
+
+		</div>
+		<img alt="amviewlate projection" class="columnImage" src="./images/amviewlate-forwardarrow.png">
+	</section>
+
+
+    </div>
+  </body>
+
+	<div class="test">
+
+		<a title="back" href="amviewlate-ideation.html"><img class="button1" src="arrowLeft.svg"></a>
+  	<a class="button1" href="amviewlate-ideation.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ideation & prototyping</a>
+  	<a href="#">back to top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<a title="next" href="index.html"><img class="button2 hidden" src="arrowRight.svg"></a>
+		<a class="button2 hidden" href="#">HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+  </div>
+
+	</div>
+
+<!-- Social Meedz -->
+  <footer>
+    <a title="Email" href="mailto:sarastalla@gmail.com"><img class="mail" src="mail.svg"></a>
+    <a title="LinkedIn" href="https://www.linkedin.com/in/sarastalla/" class="fa fa-linkedin" target="_blank"></a>
+    <a title="Instagram" href="https://www.instagram.com/sarastalla/" class="fa fa-instagram" target="_blank"></a>
+    <a title="Pinterest" href="https://www.pinterest.com/sarastalla/" class="fa fa-pinterest" target="_blank"></a>
+    <a title="Twitter" href="https://www.twitter.com/sarastalla/" class="fa fa-twitter" target="_blank"></a>
+  </footer>
+	<br>
+	<br>
+</html>

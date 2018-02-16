@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #30313F;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Text Styles */
+
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+h2 {
+  margin: 0.2em 0 0.3em 0;
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.1em;
+  font-family: 'Alegreya Sans';
+}
+
+h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 0.9em;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h4 {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 0.5em 0;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/* Header */
+
+header {
+  max-width: 1200px;
+  height: 70px;
+  background: #fff background-size: 1200px 70px;
+  margin: auto;
+}
+
+header a.logo {
+  z-index: 1;
+  display: inline;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background: url(logo.svg) no-repeat 0 0;
+  background-size: contain; /* "Contain" sets the size in proportion to the background */
+  top: 0px;
+  margin: auto;
+  margin-left: 5px;
+}
+
+header a.logo span {
+  display: none;
+}
+
+header div.hero {
+  text-align: right;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Buttons */
+
+a.btn {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+  padding: 4px 14px;
+  transition: color 0.5s;
+}
+
+a.btnList {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #FF3977;
+}
+
+a.btnAbout {
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  padding: 4px 14px;
+}
+
+a.btn:hover {
+  font-weight: 500;
+  transition: font-weight 0.3s;
+}
+
+/* Bio */
+
+section.bio {
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-right: 300px;
+  color: #000;
+}
+
+section.bio article {
+  padding: 0px 100px 10px 300px;
+  background: url(./images/prof-picv1.png) no-repeat 0 0;
+  background-size: contain;
+  min-height: 265px;
+  max-height: 265px;
+}
+
+  /* Personal Projects */
+
+section.personal-projects {
+  padding-top: 5px;
+  padding-left: 400px;
+  padding-bottom: 30px;
+  padding-right: 300px;
+  color: #000;
+}
+
+ul {
+  padding: 0px;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+  /* Social Meedz */
+
+  footer {
+    max-width: 1200px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+.mail {
+  background: white;
+  border-radius: 50%;
+  min-height: 40px;
+  max-width: 40px;
+  vertical-align: top;
+  margin-right: 2px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.fa-instagram {
+  background: white;
+  color: #30313F;
+}
+
+.fa-instagram:hover {
+  background: white;
+  color: #B21D92;
+}
+
+.fa-twitter {
+  background: white;
+  color: #30313F;
+}
+
+.fa-twitter:hover {
+  background: white;
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #30313F;
+}
+
+.fa-linkedin:hover {
+  background: white;
+  color: #0077B5;
+}
+
+.fa-pinterest {
+  background: white;
+  color: #30313F;
+}
+
+.fa-pinterest:hover {
+  background: white;
+  color: #BF0112;
+}

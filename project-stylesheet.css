@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #30313F;
+  margin: 0;
+  padding: 0;}
+
+#page {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+  /* Text Styles */
+
+  h1 {
+    margin: 0 0 1em 0;
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+
+/* Need to fix this for Firefox */
+  h2 {
+    margin: 0.2em 0 0.3em 0;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.1em;
+  }
+
+  h3 {
+    margin: 0 0 0.5em 0.5em;
+    font-size: 1.3em;
+    font-weight: 100;
+  }
+
+  h4 {
+    margin: 0 0 0.5em 0.25em;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: left;
+    width: 90%;
+  }
+
+  h5 {
+    font-family: 'Alegreya Sans';
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: left;
+    font-style: italic;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    margin-top: -5px;
+  }
+
+/* for quotes */
+  h6 {
+    font-family: 'Alegreya Sans';
+    font-size: 2em;
+    font-weight: 400;
+    text-align: left;
+    font-style: italic;
+    line-height: 1.3em;
+    width: 75%;
+    padding: 50px;
+    padding-right: 90px;
+  	margin: 10px;
+    margin-left: -15px;
+  }
+
+  .subheading h5 {
+    font-size: 0.8em;
+  }
+
+  /* Header */
+
+  header {
+    height: 70px;
+    background: #fff background-size: 1200px 70px;
+  }
+
+  header a.logo {
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: url(logo.svg) no-repeat 0 0;
+    background-size: contain; /* "Contain" sets the size in proportion to the background */
+    top: 0px;
+    margin: auto;
+    margin-left: 5px;
+  }
+
+  header a.logo span {
+    display: none;
+  }
+
+  header div.hero {
+    text-align: right;
+    margin-top: 20px;
+    text-align: right;
+  }
+
+    /* Buttons */
+
+  a.btn {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #000;
+    padding: 4px 14px;
+    transition: color 0.5s;
+  }
+
+  a.btnList {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #FF3977;
+  }
+
+  a.btn:hover {
+    font-weight: 500;
+    transition: font-weight 0.3s;
+  }
+
+  /* Process */
+
+  section.project-title {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+
+.line{
+  display:block;
+  height:1px;
+  background:#575252;
+  position:relative;
+  margin-top:30px;
+  margin-left: 5px;
+  width: 98%;
+}
+
+.dot{
+  position: absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  margin-left:-27px;
+  top: -5px;
+  background: #575252;
+  z-index: 1;
+  box-shadow: 0 0 0 3px solid #fff;
+}
+
+.intro{
+  position: absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  left:2%;
+  margin-left:-30px;
+  top: -5px;
+  background: #575252;
+  z-index: 1;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.research{
+  position: absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  left:35%;
+  margin-left:-25px;
+  top: -5px;
+  background: #575252;
+  z-index: 1;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.ideation{
+  position: absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  left:68%;
+  margin-left:-25px;
+  top: -5px;
+  background: #575252;
+  z-index: 1;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.results{
+  position: absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  left:102%;
+  margin-left:-30px;
+  top: -5px;
+  background: #575252;
+  z-index: 1;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.current {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 0px 1px #000;
+}
+
+.dot:hover {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 0px 1px #000;
+}
+
+  /* Process Work */
+
+.glance {
+  font-family: 'Alegreya Sans';
+  font-size: 0.9em;
+  width: 15%;
+  float: left;
+  border: 1px solid #000;
+  padding: 20px;
+	margin: 10px;
+  padding-right: 30px;
+	box-sizing: border-box;
+}
+
+.insights {
+
+  font-size: 1.1em;
+  width: 95%;
+  border: 2px solid #30313F;
+  padding: 50px;
+  padding-right: 90px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.insights h5 {
+  font-family: 'Alegreya Sans';
+  font-size: 1.1em;
+}
+
+.insights .subheading {
+  margin-left: -20px;
+}
+
+.insights .textBox {
+  margin-left: 15px;
+}
+
+.insights .textBoxRight {
+  margin-left: 40px;
+}
+
+iframe {
+  text-align: center;
+}
+
+/* key stuff */
+.centered-video {
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+}
+
+aside.left {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+aside.right {
+  width: 20%;
+  float: right;
+  margin-right: 265px;
+  text-align: left;
+}
+
+aside::after {
+  content: '';
+display: block;
+clear: both;
+margin-bottom: 100px;
+}
+
+ul {
+  margin-left: -20px;
+  line-height: 1.4em;
+}
+
+.redUnderline {
+  color: #30313F;
+  text-decoration: underline;
+  text-decoration-color: #FF3977;
+}
+
+#mainText {
+  margin-left: 220px;
+}
+
+.subheading {
+  padding: 0 0 0 20px;
+  font-family: 'Alegreya Sans';
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.process .subheading {
+  margin-left: -20px;
+}
+
+.process {
+  padding: 5px 0 20px 20px;
+  /*
+  /* -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  /* -moz-column-count: 2; /* Firefox */
+  /* column-count: 2;
+  /* column-gap: 20px;
+  /* ^ no columns for now */
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.textBox {
+  float: left;
+  width: 400px;
+  clear: both;
+}
+
+.textBoxRight {
+  float: right;
+  width: 400px;
+  margin-left: 60px;
+  margin-right: -120px;
+  clear: both;
+}
+
+/* not using this right now */
+.columnText {
+  padding: 30px 50px 20px 20px;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  column-gap: 25px;
+  display: inline-block;
+}
+
+img {
+
+}
+
+img.columnImage {
+  margin-left: 60px;
+  margin-right: -120px;
+  float: right;
+  width: 450px;
+  height: 275px;
+  border-radius: 1%;
+}
+
+img.fullWidthImage {
+  margin-top: -30px;
+  width: 950px;
+  height: 550px;
+}
+
+img.gif {
+  width: 450px;
+  height: 275px;
+}
+
+/* Bottom Nav */
+
+.test {
+  margin: 100px auto;
+  text-align: center;
+}
+
+/* You have to set the <a> tag to text-decoration: none;. Not the div inside. */
+.test > a {
+  text-decoration: none;
+  font-style: italic;
+  color: #30313F;
+}
+
+.test .button1 {
+  float: left;
+}
+
+.test .button2 {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Social Meedz */
+
+footer {
+  max-width: 1200px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+/* Why is this fucked up? */
+.mail {
+  background: white;
+  border-radius: 50%;
+  min-height: 40px;
+  max-width: 40px;
+  vertical-align: top;
+  margin-right: 2px;
+  padding-left: 0;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.fa-instagram {
+  background: white;
+  color: #30313F;
+}
+
+.fa-instagram:hover {
+  background: white;
+  color: #B21D92;
+}
+
+.fa-twitter {
+  background: white;
+  color: #30313F;
+}
+
+.fa-twitter:hover {
+  background: white;
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #30313F;
+}
+
+.fa-linkedin:hover {
+  background: white;
+  color: #0077B5;
+}
+
+.fa-pinterest {
+  background: white;
+  color: #30313F;
+}
+
+.fa-pinterest:hover {
+  background: white;
+  color: #BF0112;
+}
