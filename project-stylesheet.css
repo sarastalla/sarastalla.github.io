@@ -123,7 +123,7 @@ body {
 
   a.btn:hover {
     font-weight: 500;
-    transition: font-weight 0.1s;
+    transition: font-weight 0.3s;
   }
 
   /* Process */
@@ -153,6 +153,8 @@ body {
   background: #575252;
   z-index: 1;
   box-shadow: 0 0 0 3px solid #fff;
+  transition: box-shadow 0.25s;
+  transition: border 0.25s;
 }
 
 .intro{
