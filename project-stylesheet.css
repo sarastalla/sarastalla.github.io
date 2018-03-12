@@ -128,15 +128,16 @@ body {
 
   a.nav {
     text-decoration: none;
+    font-style: italic;
     color: #000;
   }
 
   a.thisPage {
-    font-style: italic;
+    font-style: normal;
   }
 
   a.nav:hover {
-    font-style: italic;
+    font-style: normal;
   }
 
   /* Timeline */
