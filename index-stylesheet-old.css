@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #30313F;
@@ -18,38 +19,78 @@ body {
 /* Text Styles */
 
 h1 {
-  font-family: "Rubik";
+  font-family: "Avenir Next";
   margin: 0 0 1em 0;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 200;
 }
 
 h2 {
-  margin: 0 0 1em 0;
-  font-size: 1.5em;
-  font-weight: 300;
+  margin: 0.2em 0 0.3em 0;
+  font-size: 1.3em;
+  font-weight: 400;
   line-height: 1.1em;
 }
 
 h3 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 80px;
-  margin-left: 80px;
-  font-size: 1.1em;
+  margin: 0 0 0.5em 0;
+  font-size: .95em;
   font-weight: 200;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  font-style: italic;
+}
+
+h4 {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 0.5em 0;
+  font-size: 0.8em;
 }
 
 /* Buttons */
 
 a {
   color: #30313F;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #30313F;
+}
+
+/* FIX THIS: Maybe underline appears on hover? */
+a.btn {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+  padding: 4px 14px;
+  transition: color 0.5s;
+}
+
+  a.btnSelectedWork {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    padding: 4px 14px;
+  }
+
+a.btn:hover {
+  font-weight: 500;
+  transition: font-weight 0.3s;
+}
+
+/* not using this button hover effect right now */
+a.btnName {
+}
+
+a.btnName:hover {
+  font-weight: 300;
+  transition: font-weight 0.2s;
+  color: #717171;
 }
 
 /* Header */
@@ -57,6 +98,22 @@ a {
 header {
   height: 100px;
   background: #fff background-size: 1200px 100px;
+}
+
+header a.logo {
+  z-index: 1;
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background: url(logo.svg) no-repeat 0 0;
+  background-size: contain; /* "Contain" sets the size in proportion to the background */
+  top: 30px;
+  margin: auto;
+}
+
+header a.logo span {
+  display: none;
 }
 
 header div.hero {
@@ -68,12 +125,7 @@ header div.hero {
 
 header div.hero h1 {
   line-height: 1em;
-  margin: 20px 0 20px 0;
-}
-
-header div.hero h3 {
-  line-height: 1em;
-  margin: 20px 0 20px 0;
+  margin: 0 0 30px 0;
 }
 
 /* Main Section */
