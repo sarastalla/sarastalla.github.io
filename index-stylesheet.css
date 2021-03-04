@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #30313F;
@@ -39,10 +39,22 @@ h3 {
   margin-left: 80px;
   font-size: 1.1em;
   font-weight: 200;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 50px;
+}
+
+h4 {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 1.1em;
+  font-weight: 200;
+
 }
 
 /* Buttons */
